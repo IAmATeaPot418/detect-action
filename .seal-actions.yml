@@ -1,0 +1,30 @@
+meta:
+  schema-version: 0.1.0
+  created-on: "2024-02-16T01:19:35Z"
+  cli-version: 0.2.0
+projects:
+  iamateapot418-detect-action:
+    targets:
+      - package.json
+    manager:
+      ecosystem: node
+      name: npm
+      version: "7"
+    overrides:
+      semver:
+        6.3.0:
+          use: 6.3.0-sp1
+        7.3.5:
+          use: 7.3.5-sp1
+      json5:
+        2.2.0:
+          use: 2.2.0-sp1
+      word-wrap:
+        1.2.3:
+          use: 1.2.3-sp1
+      tough-cookie:
+        4.0.0:
+          use: 4.0.0-sp1
+      minimatch:
+        3.0.4:
+          use: 3.0.4-sp1
